@@ -1,0 +1,8 @@
+.blue{background-color:blue;}
+.green{background-color:green;}
+
+#my-wrapper{
+	width: 100%;
+	overflow: hidden;
+	}
+#my-box-content {font-family:"Gill Sans","Gill Sans MT","Myriad Pro","Dejave Sans Condensed","Arial","Calibri"}
