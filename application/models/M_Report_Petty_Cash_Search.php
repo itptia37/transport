@@ -15,7 +15,7 @@ class M_Report_Petty_Cash_Search extends CI_Model {
 		$this->db->distinct('a.id_login');
 		$this->db->select('a.id_login,b.email,c.name');
 		$this->db->from('transport_request.user a');
-		$this->db->where('c.status','Active');
+		// $this->db->where('c.status','Active');
 		$this->db->join('login.login_user b', 'a.id_login = b.id_login','LEFT');
 		$this->db->join('public.public_view_employee c', 'b.id_employee = c.id_employee','LEFT');
 		return $this->db->get();
