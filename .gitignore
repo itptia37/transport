@@ -1,7 +1,10 @@
 attachment/*
-vendor/*
 application/config/database.php
 application/config/config.php
-application/cache/*
-index.php
 application/backup/*
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/index.html
+vendor/*
+index.php
