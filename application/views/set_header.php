@@ -7,27 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $this->session->userdata('set_web'); ?></title>
 		
-	<link type="image/png" href="<?php echo base_url().'assets/images/fav.png'; ?>" rel="icon"/>
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'; ?>"  />
-	<script type="text/javascript" src="<?php echo base_url().'assets/external-js/jquery-3.1.1.min.js'; ?>"  ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/bootstrap/js/bootstrap.min.js'; ?>"  ></script>
+	<link type="image/png" href="<?php echo 'assets/images/fav.png'; ?>" rel="icon"/>
+	<link type="text/css" rel="stylesheet" href="<?php echo 'assets/bootstrap/css/bootstrap.min.css'; ?>"  />
+	<script type="text/javascript" src="<?php echo 'assets/external-js/jquery-3.1.1.min.js'; ?>"  ></script>
+	<script type="text/javascript" src="<?php echo 'assets/bootstrap/js/bootstrap.min.js'; ?>"  ></script>
 
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_global180904-4.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_login.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_petty_cash.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_global180904-4.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_login.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_petty_cash.js'; ?>" ></script>
 	
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_user.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_car.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_driver.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_courier.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_external.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_request_driver181019.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_request_courier181019.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_expense.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/js/tr_cash181026.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_user.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_car.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_driver.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_courier.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_external.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_request_driver181019.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_request_courier181019.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_expense.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_cash181026.js'; ?>" ></script>
 	
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/jquery-ui/jquery-ui.min.css'; ?>"  />
-	<script type="text/javascript" src="<?php echo base_url().'assets/jquery-ui/jquery-ui.min.js'; ?>"  ></script>
+	<link type="text/css" rel="stylesheet" href="<?php echo 'assets/jquery-ui/jquery-ui.min.css'; ?>"  />
+	<script type="text/javascript" src="<?php echo 'assets/jquery-ui/jquery-ui.min.js'; ?>"  ></script>
 	
 </head>
 <style type="text/css">

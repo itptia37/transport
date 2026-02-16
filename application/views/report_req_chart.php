@@ -5,11 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PT INDOSPEC ASIA | Request Transport</title>
-	<link type="image/png" href="<?php echo base_url().'assets/images/favicon.png'; ?>" rel="icon"/>	
+	<link type="image/png" href="<?php 'assets/images/favicon.png'; ?>" rel="icon"/>	
 	
-	<script type="text/javascript" src="<?php echo base_url().'assets/external-js/jquery-3.1.1.min.js'; ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/highcharts/code/highcharts.js'; ?>" ></script>
-	<script type="text/javascript" src="<?php echo base_url().'assets/highcharts/code/modules/exporting.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/external-js/jquery-3.1.1.min.js'; ?>"></script>
+	<script type="text/javascript" src="<?php echo 'assets/highcharts/code/highcharts.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/highcharts/code/modules/exporting.js'; ?>" ></script>
 	
 	
 </head>

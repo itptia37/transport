@@ -238,7 +238,11 @@ if($this->session->userdata('access_tr') == 24 && $status <= 0){
 						
 						echo'<td rowspan="2" valign="top">'.$no_file++.'</td>';
 						
-						echo'<td><a href="'.base_url().'attachment/'.$data_file->attachment.'" 
+						// echo'<td><a href="'.base_url().'attachment/'.$data_file->attachment.'" 
+						// target="_blank" class="my-list-file-item">
+						// <span class="glyphicon glyphicon-file"></span> '.$data_file->attachment.'</a>
+						// </td>';
+						echo'<td><a href="attachment/'.$data_file->attachment.'" 
 						target="_blank" class="my-list-file-item">
 						<span class="glyphicon glyphicon-file"></span> '.$data_file->attachment.'</a>
 						</td>';

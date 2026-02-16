@@ -1,7 +1,8 @@
 <?php 
 defined('BASEPATH') or exit ('No direct script access allowed');
 
-	$btn_print	 = '<a href="'.base_url().'/Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	// $btn_print	 = '<a href="'.base_url().'/Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	$btn_print	 = '<a href="Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
 	
 ?>
 

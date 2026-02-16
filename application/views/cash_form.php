@@ -5,7 +5,8 @@ defined('BASEPATH') or exit ('No direct script access allowed');
 	$input_end_date		= 'onkeypress="ECash(event,&#39;myinput&#39;)" onkeyup="CheckInput(&#39;input_end_date&#39;)" onmouseover="DateShow(&#39;input_end_date&#39;)"';
 	$input_receiver_name 	= 'onclick="ListBoxShow(&#39;my-list-box-receiver_name&#39;,&#39;Cash/Search_List_Receiver&#39;,&#39;ListDataReceiver&#39;,&#39;input_src_receiver_name&#39;)"';
 	$btn_save			= '<button onclick="CashSubmit()" id="BtnSubmit" class="btn btn-primary btn-sm">Save</button>';
-	$btn_print			= '<a href="'.base_url().'/Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	// $btn_print			= '<a href="'.base_url().'/Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	$btn_print			= '<a href="Cash/Form/Print/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
 	$btn_reset			= '<button onclick="FormFloatShow(&#39;Cash/Form/Add/'.enid_get(0).'&#39;)" id="BtnReset" class="btn btn-warning btn-sm">Reset</button>';
 	
 	if(desid_get($target) > 0){

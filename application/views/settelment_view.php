@@ -7,7 +7,8 @@ if($status == 1){ // lock
 	$btn_approve = '';
 }
 if($status == 2){ // finished
-	$btn_print	 = '<a href="'.base_url().'/Cash/Form/Print_PTJ/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	// $btn_print	 = '<a href="'.base_url().'/Cash/Form/Print_PTJ/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
+	$btn_print	 = '<a href="Cash/Form/Print_PTJ/'.$target.'" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-print"></span></a>';
 }else{
 	$btn_print	 = '';
 }
