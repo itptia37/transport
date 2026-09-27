@@ -12,7 +12,7 @@
 	<script type="text/javascript" src="<?php echo 'assets/external-js/jquery-3.1.1.min.js'; ?>"  ></script>
 	<script type="text/javascript" src="<?php echo 'assets/bootstrap/js/bootstrap.min.js'; ?>"  ></script>
 
-	<script type="text/javascript" src="<?php echo 'assets/js/tr_global180904-4.js'; ?>" ></script>
+	<script type="text/javascript" src="<?php echo 'assets/js/tr_global180904-4.js?v=20260927'; ?>" ></script>
 	<script type="text/javascript" src="<?php echo 'assets/js/tr_login.js'; ?>" ></script>
 	<script type="text/javascript" src="<?php echo 'assets/js/tr_petty_cash.js'; ?>" ></script>
 	
